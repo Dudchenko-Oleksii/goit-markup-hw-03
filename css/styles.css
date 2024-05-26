@@ -35,7 +35,7 @@ a {
 }
 
 .title-sections {
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 /* header */
 .container {
@@ -56,6 +56,7 @@ a {
 .logo {
     padding-top: 24px;
     padding-bottom: 24px;
+    margin-right: 76px;
 
 }
 .logo-link{
@@ -76,15 +77,16 @@ a {
 .navigate {
   display: flex;
   margin-right: auto;
+  align-items: center;
   
 
 }
 .navigate-list {
     display: flex;
     gap: 40px;
-        padding-top: 24px;
-            padding-bottom: 24px;
-    margin-left: 76px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    
 }
     
 .navigate .link-nav {
@@ -134,11 +136,12 @@ a {
     
 }
 
-/* main */
-/* hero */
+/* ---------main---------- */
+
 .main-title {
     background-color: #2e2f42;
     padding-bottom: 188px;
+    padding-top: 188px;
 }
 .title {
     font-weight: 700;
@@ -148,7 +151,6 @@ a {
     text-align: center;
     letter-spacing: 0.02em;
     max-width: 496px;
-    padding-top: 188px;
     padding-bottom: 48px;
     margin: auto;
     text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
@@ -171,6 +173,7 @@ a {
     margin: auto;
     display: block;
     padding: 16px 32px;
+    min-width: 169px;
     
 }
 .btn:hover,
@@ -196,7 +199,7 @@ a {
 }
 
 .our-advantages-item {
-    width: calc((100% - 3 * 24) / 4);
+    width: calc((100% - 3 * 24px) / 4);
     
 
 }
@@ -208,6 +211,7 @@ a {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .text-main {
@@ -242,15 +246,23 @@ a {
      box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
      background-color: #ffffff;
 }
+
+.our-team-card-text {
+padding: 32px 0;
+
+}
 .title-name {
 
 }
+.our-team-title {
+
+}
 .title-name-team {
-    padding-top: 32px;
-    padding-bottom: 8px;
+    text-align: center;
+
 }
 .text-name-team{
-    padding-bottom: 32px;
+   text-align: center;
 }
 
 /* -----portfolio------ */
@@ -273,16 +285,14 @@ gap: 48px 24px;
 border-bottom: 1px solid #e7e9fc;
 border-right: 1px solid #e7e9fc;
 border-left: 1px solid #e7e9fc;
+padding: 32px 16px;
 }
 .title-name-portfolio {
-padding-top: 32px;
-padding-left: 16px;
 padding-bottom: 8px;
 }
 
 .text-main-portfolio {
-    padding-bottom: 32px;
-    padding-left: 16px;
+
 }
 .title-sections {
     font-weight: 700;
@@ -306,10 +316,13 @@ padding-bottom: 8px;
     line-height: 1,5;
     letter-spacing: 0.02em;
     max-width: 264px;
-    padding-top: 16px;
 }
 .background-footer {
     background-color: #2e2f42;
     padding-top: 100px;
     padding-bottom: 100px;
+}
+.logo-link-footer {
+    display: inline-block;
+    margin-bottom: 16px;
 }
