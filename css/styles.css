@@ -53,12 +53,7 @@ a {
     margin: 0 auto;
 }
 /* logo header*/
-.logo {
-    padding-top: 24px;
-    padding-bottom: 24px;
-    
 
-}
 .logo-link{
     font-family: "Raleway", sans-serif;
         font-weight: 700;
@@ -69,7 +64,8 @@ a {
         color: #4d5ae5;
         text-decoration: none;
         margin-right: 76px;
-        display: inline-block;
+        padding-top: 24px;
+        padding-bottom: 24px;
 
 }
 .logo-studio-header {
