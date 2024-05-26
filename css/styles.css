@@ -56,7 +56,7 @@ a {
 .logo {
     padding-top: 24px;
     padding-bottom: 24px;
-    margin-right: 76px;
+    
 
 }
 .logo-link{
@@ -68,6 +68,7 @@ a {
         text-transform: uppercase;
         color: #4d5ae5;
         text-decoration: none;
+margin-right: 76px;
 
 }
 .logo-studio-header {
